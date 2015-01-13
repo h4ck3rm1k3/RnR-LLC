@@ -683,7 +683,7 @@ if not "trace_efi_output" in dir():
 #     print "EFI assertion: %s:%d:%s" % (read_string(read_reg(cpu, "r32")),
 #                                         read_reg(cpu, "r33"),
 #                                         read_string(read_reg(cpu, "r34")))
-#     SIM_break_simulation("EFI asssertion")
+#     SIM_break_simulation("EFI assertion")
 
 #break_on_symbol("._DbgOut", _DbgOut)
 #break_on_symbol(".DbgAssert")
